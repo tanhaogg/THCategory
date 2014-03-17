@@ -14,15 +14,24 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        NSLog(@"%@",[@"茜" pinyinAndTone]);
+        //测试拼音
+        NSString *string = @"老谭";
+        NSLog(@"%@(%@)",[string pinyin],[string pinyinAndTone]);
         
+        //测试Size
         uint64_t byteCount = 1234567890123456;
-        NSLog(@"%@",[NSByteCountFormatter stringFromByteCount:byteCount countStyle:NSByteCountFormatterCountStyleBinary]);
         NSLog(@"%@",[NSString stringFromFileSize:byteCount]);
         
-        [NSTimer scheduledTimerWithTimeInterval:1 repeats:NO handler:^{
-            NSLog(@"xx");
+        //测试计算
+        NSString *path = [[NSBundle mainBundle] bundlePath];
+        NSLog(@"%llu",[[NSFileManager defaultManager] fileSizeAtPath:path]);
+        
+        /*
+        //测试Timer
+        [NSTimer scheduledTimerWithTimeInterval:1.0 repeats:YES handler:^{
+            //do something
         }];
+         */
     }
     return 0;
 }
