@@ -22,4 +22,19 @@
  */
 - (uint64_t)diskSizeAtPath:(NSString *)filePath;
 
+/*
+ 返回是否为替身文件
+ */
+- (BOOL)isAlias:(NSString *)aliasPath;
+
+/*
+ 返回替身文件的原身
+ */
+- (NSString *)resolvingAlias:(NSString *)aliasPath;
+
+/*
+ 创建替身文件
+ */
+- (BOOL)createAlias:(NSString *)aliasPath fromPath:(NSString *)originalPath;
+
 @end

@@ -26,12 +26,12 @@ int main(int argc, const char * argv[])
         NSString *path = [[NSBundle mainBundle] bundlePath];
         NSLog(@"%llu",[[NSFileManager defaultManager] fileSizeAtPath:path]);
         
-        /*
         //测试Timer
         [NSTimer scheduledTimerWithTimeInterval:1.0 repeats:YES handler:^{
-            //do something
+            NSLog(@"xxx");
         }];
-         */
+        
+        [[NSApplication sharedApplication] run];
     }
     return 0;
 }
