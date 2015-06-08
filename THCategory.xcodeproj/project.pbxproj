@@ -13,6 +13,7 @@
 		B86538D918D6A17F00094540 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B86538D818D6A17F00094540 /* main.m */; };
 		B86538DD18D6A17F00094540 /* THCategory.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B86538DC18D6A17F00094540 /* THCategory.1 */; };
 		B86538E618D6A23100094540 /* NSString+THCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B86538E518D6A23100094540 /* NSString+THCategory.m */; };
+		B87AF5121B25E3200075FF9C /* NSData+THCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B87AF5111B25E3200075FF9C /* NSData+THCategory.m */; };
 		B8ED747C18EE8CBC0084DD2A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8ED747B18EE8CBC0084DD2A /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,8 @@
 		B86538E418D6A23100094540 /* NSString+THCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+THCategory.h"; sourceTree = "<group>"; };
 		B86538E518D6A23100094540 /* NSString+THCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+THCategory.m"; sourceTree = "<group>"; };
 		B86538E718D6A46300094540 /* THCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THCategory.h; sourceTree = "<group>"; };
+		B87AF5101B25E3200075FF9C /* NSData+THCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+THCategory.h"; sourceTree = "<group>"; };
+		B87AF5111B25E3200075FF9C /* NSData+THCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+THCategory.m"; sourceTree = "<group>"; };
 		B8ED747B18EE8CBC0084DD2A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -94,6 +97,8 @@
 				B86538E518D6A23100094540 /* NSString+THCategory.m */,
 				B85343EB18D6EA0300498188 /* NSFileManager+THCategory.h */,
 				B85343EC18D6EA0300498188 /* NSFileManager+THCategory.m */,
+				B87AF5101B25E3200075FF9C /* NSData+THCategory.h */,
+				B87AF5111B25E3200075FF9C /* NSData+THCategory.m */,
 				B86538D818D6A17F00094540 /* main.m */,
 				B86538DC18D6A17F00094540 /* THCategory.1 */,
 				B86538DA18D6A17F00094540 /* Supporting Files */,
@@ -162,6 +167,7 @@
 			files = (
 				B86538D918D6A17F00094540 /* main.m in Sources */,
 				B86538E618D6A23100094540 /* NSString+THCategory.m in Sources */,
+				B87AF5121B25E3200075FF9C /* NSData+THCategory.m in Sources */,
 				B85343F018D6ECE200498188 /* NSTimer+THCategory.m in Sources */,
 				B85343ED18D6EA0300498188 /* NSFileManager+THCategory.m in Sources */,
 			);
